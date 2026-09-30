@@ -32,7 +32,8 @@ data/game_data_clean.csv
 
 The Jupyter notebooks contain the step-by-step data preparation, analysis, player segmentation, behavioral analysis, and predictive modeling behind the dashboard.
 
-## Project Structure
+
+Project Structure
 
 ```text
 game-analytics/
