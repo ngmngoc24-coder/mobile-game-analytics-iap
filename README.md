@@ -30,6 +30,7 @@ The browser dashboard will open locally, typically at http://localhost:8501.
 
 The project uses the cleaned dataset located at:
 
-data/game_data_clean.csv
+```data/game_data_clean.csv
+```
 
 The Jupyter notebooks contain the step-by-step data preparation, analysis, player segmentation, behavioral analysis, and predictive modeling behind the dashboard.
