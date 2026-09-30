@@ -4,6 +4,9 @@ An end-to-end game analytics portfolio project exploring how player behavior and
 
 The project combines exploratory analysis, behavioral segmentation, and predictive modeling in a Streamlit dashboard.
 
+## Data source
+Picked a dataset available on Kaggle. Game monetization is highly universal in game analytics, and not highly context-dependent like other game metrics, for example, in-game play data, therefore it is more suitable when it comes to a personal project done for skill practice.
+
 ## Business Question
 
 > What player behaviors and characteristics are associated with higher monetization value, and how can players be segmented to support game monetization and engagement decisions?
@@ -35,22 +38,3 @@ data/game_data_clean.csv
 ```
 
 The Jupyter notebooks contain the step-by-step data preparation, analysis, player segmentation, behavioral analysis, and predictive modeling behind the dashboard.
-
-
-## Project Structure
-
-```text
-game-analytics/
-├── app.py
-├── requirements.txt
-├── data/
-│   ├── mobile_game_inapp_purchases.csv
-│   └── game_data_clean.csv
-└── notebooks/
-    ├── 01_data_understanding.ipynb
-    ├── 02_data_cleaning.ipynb
-    ├── 03_kpi_analysis.ipynb
-    ├── 04_player_segmentation.ipynb
-    ├── 05_behavior_analysis.ipynb
-    └── 06_predictive_modeling.ipynb
-```
