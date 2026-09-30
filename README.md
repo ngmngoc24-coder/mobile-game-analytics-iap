@@ -35,3 +35,22 @@ data/game_data_clean.csv
 ```
 
 The Jupyter notebooks contain the step-by-step data preparation, analysis, player segmentation, behavioral analysis, and predictive modeling behind the dashboard.
+
+
+## Project Structure
+
+```text
+game-analytics/
+├── app.py
+├── requirements.txt
+├── data/
+│   ├── mobile_game_inapp_purchases.csv
+│   └── game_data_clean.csv
+└── notebooks/
+    ├── 01_data_understanding.ipynb
+    ├── 02_data_cleaning.ipynb
+    ├── 03_kpi_analysis.ipynb
+    ├── 04_player_segmentation.ipynb
+    ├── 05_behavior_analysis.ipynb
+    └── 06_predictive_modeling.ipynb
+```
