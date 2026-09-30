@@ -23,7 +23,7 @@ Requires Python 3.10+.
 cd game-analytics
 conda activate myenv
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run app.py```
 
 The browser dashboard will open locally, typically at http://localhost:8501.
 
